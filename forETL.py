@@ -356,7 +356,7 @@ def transform_each_customers_data(in_these_dates:list = None):
         current_date = ""
         days_since_last_purchase = dt.calc_date_between_dates(first_purchase_date, last_purchase_date)
         
-        # C:\Users\robfa\Downloads\initialetl
+        # C:\Users\robfa\Downloads\initialetl 
         # then
         # days since last purchase
         # average daily spend from first to now
