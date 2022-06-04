@@ -43,8 +43,8 @@ considering a super simple ml algorithm for predicting revenues but might leave 
 - CustomerSalesData
 - CustomerSpendingInsights
 - ProductPricing
-- [NEW] CustomerInsights
-- [NEW] CustomerInsightsHistorical (for dashboard app)
+- **[NEW]** CustomerInsights
+- **[NEW]** CustomerInsightsHistorical (for dashboard app)
   
    
 ## PERSONAL
