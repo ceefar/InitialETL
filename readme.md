@@ -70,7 +70,7 @@ All from first days work
 ### EXAMPLE 1 [TERMINAL]  
 - - + - -  
 EXAMPLE OF TERMINAL PRINT OUT SO FAR  
-**(below output has been trimmed to show only 2 users)**     
+*(below output has been trimmed to show only 2 users)*     
   
 Local Data Successfully Moved To Staging Table  
 Some Items From Local Data Were Dummified Due To Incomplete Data  
@@ -84,7 +84,7 @@ Unique Customers (by ID) Used In This Data Set
 5632  
 7365  
 - - + - -  
-CUSTOMER 5632  
+**CUSTOMER 5632**  
 Total Spend : $62.26  
 Total Items Purchased : 10  
 Average Spend Per Item : $6.23  
@@ -111,7 +111,7 @@ $6.03 on 2020-12-04
 $19.01 on 2020-12-05  
 $5.23 on 2020-12-08  
 - - + - -  
-CUSTOMER 7365  
+**CUSTOMER 7365**  
 Total Spend : $25.70  
 Total Items Purchased : 13  
 Average Spend Per Item : $1.98  
@@ -146,7 +146,7 @@ $4.82 on 2020-12-03
 $6.22 on 2020-12-04  
 $7.02 on 2020-12-05  
 - - + - -    
-COMPLETE  
+**COMPLETE**  
 - - + - -  
   
   
