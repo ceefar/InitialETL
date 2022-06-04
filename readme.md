@@ -58,28 +58,23 @@ All from first days work
 EXAMPLE 1 [TERMINAL]
 
 EXAMPLE OF TERMINAL PRINT OUT SO FAR
-- - - -
+--
 Local Data Successfully Moved To Staging Table
-- - - -
-
-- - - -
+-
 Some Items From Local Data Were Dummified Due To Incomplete Data
 Lines -> [3, 6, 25, 27]
-- - - -
-
-
+-
 DATE RANGE : ALL
-
-- - - -
+-
 Unique Customers (by ID) Used In This Data Set
-- - - -
+-
 996
 1054
 2194
 3451
 5632
 7365
-- - - - - - - - - - - - - - -
+-
 CUSTOMER 996
 Total Spend : $5.23
 Total Items Purchased : 1
@@ -102,34 +97,9 @@ Spend Deviation (diff in high and low spend) : $0.00
 
 Spend Per Day
 $5.23 on 2020-12-05
-- - - - - - - - - - - - - - -
+-
 
-- - - - - - - - - - - - - - -
-CUSTOMER 1054
-Total Spend : $2.45
-Total Items Purchased : 1
-Average Spend Per Item : $2.45
-Highest Value Item : 893GDE at $2.45
-Unique Items (list with counts)
-- 893GDE [x1]
-
-Unique Shopping Days : 1
-Shopping Days As % Of Available Days [38] : 2.6%
-Average Spend Per Unique Shopping Day [1] : $2.45
-
-Date of First Purchase : 2020-12-01
-Date of Last Purchase : 2020-12-01
-Buying Window (days from first to last purchase) : 1
-Daily Average Spend During Buying Window [1 days] : $2.45
-Highest Spend On A Day : $2.45 on 2020-12-01
-Lowest Spend On A Day : $2.45 on 2020-12-01
-Spend Deviation (diff in high and low spend) : $0.00
-
-Spend Per Day
-$2.45 on 2020-12-01
-- - - - - - - - - - - - - - -
-
-- - - - - - - - - - - - - - -
+-
 CUSTOMER 2194
 Total Spend : $50.00
 Total Items Purchased : 4
@@ -155,34 +125,9 @@ $12.5 on 2020-11-28
 $12.5 on 2020-12-01
 $12.5 on 2020-12-03
 $12.5 on 2020-12-04
-- - - - - - - - - - - - - - -
+-
 
-- - - - - - - - - - - - - - -
-CUSTOMER 3451
-Total Spend : $9.15
-Total Items Purchased : 1
-Average Spend Per Item : $9.15
-Highest Value Item : 023HRT at $9.15
-Unique Items (list with counts)
-- 023HRT [x1]
-
-Unique Shopping Days : 1
-Shopping Days As % Of Available Days [38] : 2.6%
-Average Spend Per Unique Shopping Day [1] : $9.15
-
-Date of First Purchase : 2020-12-03
-Date of Last Purchase : 2020-12-03
-Buying Window (days from first to last purchase) : 1
-Daily Average Spend During Buying Window [1 days] : $9.15
-Highest Spend On A Day : $9.15 on 2020-12-03
-Lowest Spend On A Day : $9.15 on 2020-12-03
-Spend Deviation (diff in high and low spend) : $0.00
-
-Spend Per Day
-$9.15 on 2020-12-03
-- - - - - - - - - - - - - - -
-
-- - - - - - - - - - - - - - -
+-
 CUSTOMER 5632
 Total Spend : $62.26
 Total Items Purchased : 10
@@ -212,9 +157,9 @@ $13.78 on 2020-12-03
 $6.03 on 2020-12-04
 $19.01 on 2020-12-05
 $5.23 on 2020-12-08
-- - - - - - - - - - - - - - -
+-
 
-- - - - - - - - - - - - - - -
+-
 CUSTOMER 7365
 Total Spend : $25.70
 Total Items Purchased : 13
@@ -252,12 +197,13 @@ $4.89 on 2020-12-02
 $4.82 on 2020-12-03
 $6.22 on 2020-12-04
 $7.02 on 2020-12-05
-- - - - - - - - - - - - - - -
+-
 
-- - - -
+-
 COMPLETE
-- - - -
+-
 
+- - - -
 
 EXAMPLE 2 [TXT]
 
@@ -285,7 +231,7 @@ Unique Items With Amount Purchased
 1x 385HTU
 1x 951LXU
 
---
+- - - -
 
 EXAMPLE 3 [DB]
 
@@ -299,7 +245,7 @@ customer_id	total_items_purchased	total_spend	avg_spend	highest_indiv_item_spend
 3451	1	9.15	9.15	9.15	023HRT
 996	1	5.23	5.23	5.23	ABCDEF
 
---
+- - - -
 
 EXAMPLE 4 [SQL COMMANDS] 
 
@@ -307,7 +253,7 @@ feel this gives a good idea of my level of interest in data engineering and show
 through the timestamps (note I recently had surgery hence why I was up so early (because I tend to go to sleep quite early, between 6 and 9pm))
 
 History
-Edit 19:02:56 SELECT purchase_date, SUM(purchase_amount) AS TotalCustomerSpend FROM CustomerSa…
+Edit 19:02:56 SELECT purchase_date, SUM(purchase_amount) AS TotalCustomerSpend FROM CustomerSa
 Edit 17:56:46 UPDATE `CustomerSalesData` SET `customer_id` = '5632', `purchase_date` = '2020-1… (0.014 s)
 Edit 17:28:06 SELECT purchase_date FROM CustomerSalesData WHERE customer_id = 7365 AND NOT pur…
 Edit 17:27:48 SELECT purchase_date FROM CustomerSalesData WHERE customer_id = 7365 AND NOT pur…
