@@ -1,0 +1,7 @@
+﻿customer_id,total_items_purchased,total_spend,avg_spend_per_item,highest_indiv_item_spend,highest_indiv_item_id,unique_shopping_days,percent_days_shopped,avg_spend_per_unique_day,buying_window,daily_avg_spend_during_buying_window,daily_avg_spend_from_first_til_today,days_since_first_purchase,days_since_last_purchase,highest_amount_spent_on_day,lowest_amount_spent_on_day,min_max_day_spend_deviation
+996,1,5.23,5.23,5.23,ABCDEF,1,8.3,5.23,1,5.23,1.05,5,5,5.23,5.23,"0.00"
+1054,1,2.45,2.45,2.45,893GDE,1,8.3,2.45,1,2.45,"0.27",9,9,2.45,2.45,"0.00"
+2194,4,"50.00","12.50","12.50",667XL,4,33.3,"12.50",7,7.14,4.17,12,6,"12.50","12.50","0.00"
+3451,1,9.15,9.15,9.15,"023HRT",1,8.3,9.15,1,9.15,1.31,7,7,9.15,9.15,"0.00"
+5632,10,62.26,6.23,7.75,853HGZ,6,"50.0",10.38,8,7.78,6.92,9,2,19.01,5.23,13.78
+7365,13,"25.70",1.98,3.25,915PD,6,"50.0",4.28,5,5.14,2.86,9,5,7.02,1.96,5.06

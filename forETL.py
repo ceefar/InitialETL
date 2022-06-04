@@ -9,6 +9,7 @@ import csv
 import doing_dates as dt
 
 
+
 # ---- db ----
 # load environment variables from .env file
 load_dotenv()
@@ -545,6 +546,12 @@ def make_general_customer_insights():
     all_customers_avg_spend = get_from_db(all_customers_avg_spend_query)
     all_customers_avg_spend = float(all_customers_avg_spend[0][0])
     
+    # truncate historical table before writing to it
+    trunc_query = f"TRUNCATE TABLE CustomerInsightsHistorical"
+    add_to_db(trunc_query)
+    # move existing insights data to historical table from comparison
+    move_query = "INSERT INTO CustomerInsightsHistorical SELECT * from CustomerInsights"
+    add_to_db(move_query)
     # truncate new table before writing to it
     trunc_query = f"TRUNCATE TABLE CustomerInsights"
     add_to_db(trunc_query)
@@ -590,12 +597,46 @@ def make_general_customer_insights():
     text_file.close()
 
 
-def create_csv_for_testing():
-    # write csv for streamlit dashbaord testing here
-    # consider coursera course? 
-    pass
+def grab_all_cust_avg_spend():
+    """ write dee doc string ceefar """
+    # ---- all customers avg total spend ----
+    # for sending to dashboard app
+    all_customers_avg_spend_query = "SELECT ROUND(AVG(total_spend),2) AS AvgSpendPerCustomer FROM CustomerSpendingInsights"
+    all_customers_avg_spend = get_from_db(all_customers_avg_spend_query)
+    all_customers_avg_spend = float(all_customers_avg_spend[0][0])
+    return(all_customers_avg_spend)
 
 
+def grab_all_cust_avg_spend_proper():
+    """ write dee doc string ceefar """
+    # ---- all customers avg total spend proper from new db table ----
+    # for sending to dashboard app
+    all_customers_avg_spend_query = "SELECT avg_spend_per_customer FROM CustomerInsights"
+    all_customers_avg_spend = get_from_db(all_customers_avg_spend_query)
+    all_customers_avg_spend = float(all_customers_avg_spend[0][0])
+    return(all_customers_avg_spend)
+
+
+def grab_all_cust_avg_spend_historical():
+    """ write dee doc string ceefar """
+    # ---- all customers avg total spend proper from new db table ----
+    # for sending to dashboard app
+    all_customers_avg_spend_query = "SELECT avg_spend_per_customer FROM CustomerInsightsHistorical"
+    all_customers_avg_spend = get_from_db(all_customers_avg_spend_query)
+    all_customers_avg_spend = float(all_customers_avg_spend[0][0])
+    return(all_customers_avg_spend)
+
+
+def grab_all_cust_avg_shop_days():
+    """ write dee doc string ceefar """
+    # ---- all customers avg total spend ----
+    # for sending to dashboard app
+    all_customers_avg_shop_days_query = "SELECT ROUND(AVG(unique_shopping_days),2) AS AvgShopDays FROM CustomerSpendingInsights"
+    all_customers_avg_shop_days = get_from_db(all_customers_avg_shop_days_query)
+    all_customers_avg_shop_days = float(all_customers_avg_shop_days[0][0])
+    return(all_customers_avg_shop_days)
+
+    
 def finalise_staging_data():
     """ move the data from the staging table to the main table (wipe existing main table first tho) and then wipe the staging table """
     trunc_query = f"TRUNCATE TABLE CustomerSalesData"
@@ -650,7 +691,7 @@ def update_product_price_table():
     add_to_db(product_price_table_query)
 
 
-def driver():
+def main():
     """
     main program, reads csv, stages to db, cleans data by dummifying it,
     then transforms the data, prints into to terminal, writes that same info to individual txt files for each customer
@@ -667,8 +708,6 @@ def driver():
         transform_db_data()
         # new insights of all customers [ALPHA]
         make_general_customer_insights()
-        # make csv for testing streamlit data
-        create_csv_for_testing()
         # move original csv data from staging table to final table, and wipe staging table
         finalise_staging_data()
     # update the new product pricing table, do this at end as though we can use it to fill in missing data it should be using existing/historical data to do that (?)
@@ -676,7 +715,8 @@ def driver():
     
     
 # driver... duh
-driver()
+if __name__=='__main__':
+    main()
 
 
 # ---- important notes ----

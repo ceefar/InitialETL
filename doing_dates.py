@@ -1,6 +1,7 @@
 from datetime import date
 from time import strptime
 
+# urghhh, meant *days* between dates not date between dates but whatever
 def calc_date_between_dates(start_date:str, end_date:str) -> int:
     """ calculate the date between two given dates, includes the start and end date in the calculation, converts from YYYY-MM-DD to date object used for calc """
     # dates must strings in format YYYY-MM-DD
