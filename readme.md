@@ -92,7 +92,8 @@ All from first days work
    
 ## DASHBOARD APP  
 *click to enlarge images*  
-yes this is supppper basic, but first day working with it, most of the learning today was just figuring out how to use streamlit and it's widgets  
+yes this is supppper basic, but first day working with it, and it is live data from the database or database csvs,  
+most of the learning today was just figuring out how to use streamlit and it's widgets  
 note files upload via discord but i literally cannot do it another way due to broken af os (ggwp microsoft)  
     
 **Dashboard Home**    
