@@ -85,7 +85,7 @@ old personal notes on the project and my progress overall have been moved to the
   
   
 ## EXAMPLES  
-See 5 examples below, terminal, txt, db, SQLcommands  
+See 5 examples below, **[NEW] Dashboard App**, Terminal, Txt Files, DB peek, SQLcommands  
 All from first days work  
 (got the task on Weds, today is thurs, only had 3 hours to work during class 10am to 1pm, though i worked throughout my lunch too so 4)  
    
