@@ -61,8 +61,7 @@ i've got them to give me the dl for windows 10, would have reverted already but 
 which i missed due to surgery and since i'm not confident in spinning the sql server back up i figured ill wait til that's done  
   
 ok so with that out of the way, a large refactor and formatting to the original app on friday after raging with microsoft for 2 hours and starting  
-file backups (windows 10 install will require wiping my entire system fml), but refactor was very much worth it, then expanded the extract data drastically  
-though i've not included the specifics of the update here, thinking i'll possibly do that on sunday with a new readme.md  
+file backups (windows 10 install will require wiping my entire system fml), but refactor was very much worth it, then expanded the extract data drastically though i've not included the specifics of the update here, thinking i'll possibly do that on sunday with a new readme.md   
   
 today tho has been my favourite day, spent entirely working with streamlit and trying to get a super basic dashboard app up and running,  
 was a real pain at the start but after a while got to grips with it and man am i proud of it so far,  
