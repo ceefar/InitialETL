@@ -70,43 +70,27 @@ Unique Customers (by ID) Used In This Data Set
 5632
 7365
 
+<p>
 CUSTOMER 996
-
 Total Spend : $5.23
-
 Total Items Purchased : 1
-
 Average Spend Per Item : $5.23
-
 Highest Value Item : ABCDEF at $5.23
-
 Unique Items (list with counts)
-
 ABCDEF [x1]
-
 Unique Shopping Days : 1
-
 Shopping Days As % Of Available Days [38] : 2.6%
-
 Average Spend Per Unique Shopping Day [1] : $5.23
-
 Date of First Purchase : 2020-12-05
-
 Date of Last Purchase : 2020-12-05
-
 Buying Window (days from first to last purchase) : 1
-
 Daily Average Spend During Buying Window [1 days] : $5.23
-
 Highest Spend On A Day : $5.23 on 2020-12-05
-
 Lowest Spend On A Day : $5.23 on 2020-12-05
-
 Spend Deviation (diff in high and low spend) : $0.00
-
 Spend Per Day
-
 $5.23 on 2020-12-05
+</p>
 
 ---
 
