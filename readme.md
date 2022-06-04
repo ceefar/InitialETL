@@ -69,7 +69,7 @@ Unique Customers (by ID) Used In This Data Set
 3451  
 5632  
 7365  
-- - - -  
+- - + - -  
 CUSTOMER 5632  
 Total Spend : $62.26  
 Total Items Purchased : 10  
@@ -96,7 +96,7 @@ $13.78 on 2020-12-03
 $6.03 on 2020-12-04  
 $19.01 on 2020-12-05  
 $5.23 on 2020-12-08  
-.  
+- - + - -  
 CUSTOMER 7365  
 Total Spend : $25.70  
 Total Items Purchased : 13  
@@ -131,9 +131,11 @@ $4.89 on 2020-12-02
 $4.82 on 2020-12-03  
 $6.22 on 2020-12-04  
 $7.02 on 2020-12-05  
-  
+- - + - -    
 COMPLETE  
-
+- - + - -  
+  
+  
 - - - -
 
 EXAMPLE 2 [TXT]
