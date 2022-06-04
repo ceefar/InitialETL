@@ -10,6 +10,11 @@ Note i have removed some extra fields from the sample data set to test my code f
 I've also altered some dates so calculating things like averages made a lot more sense   
   
   
+## NOTE  
+if you are going to pull this or just dl the files/whatever, the config.toml file   
+must be in its own folder titles .streamlit if you want styling, should work without it tho but i have not tested at all  
+  
+  
 ## EXTRACT
 Extracts data and dummifies any missing entries, then fills in any missing entries it can if valid
 - e.g. if have a product_id but no product_amount for a user ive created a new ProductPricing db table that
