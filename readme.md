@@ -154,10 +154,10 @@ $7.02 on 2020-12-05
 
 ### EXAMPLE 2 [TXT]  
 
-EXAMPLE OF CUSTOMER TXT FILE SO FAR 
-(as you can see there is much more data in terminal, but thats just because i'm still adding and creating that data)  
+**EXAMPLE OF CUSTOMER TXT FILE SO FAR**  
+*(as you can see there is much more data in terminal, but thats just because i'm still adding and creating that data)*  
   
-cust7365_allData.txt  
+**cust7365_allData.txt**  
   
 Data From All Available Dates Included  
 CUSTOMER 7365  
