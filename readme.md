@@ -185,6 +185,12 @@ Unique Items With Amount Purchased
 EXAMPLE OF INSIGHTS DB TABLE  
 (same problem with txt files but even more so, just completed load to ensure worked, then working mostly in terminal for the day)  
   
+  
+| customer_id | total_items_purchased | total_spend | avg_spend | highest_indiv_item_spend | highest_indiv_item_id |
+| --- | ----------- | --- | --- | --- |
+| 5632 | 10 | 62.26 | 6.23 | 7.75 | 853HGZ |
+| 2194 | 4 | 50.00 | 12.50 | 12.50 | 667XL |
+
 customer_id	total_items_purchased	total_spend	avg_spend	highest_indiv_item_spend	highest_indiv_item_id  
 5632	10	62.26	6.23	7.75	853HGZ  
 2194	4	50.00	12.50	12.50	667XL  
