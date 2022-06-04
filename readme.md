@@ -86,17 +86,24 @@ old personal notes on the project and my progress overall have been moved to the
 See 5 examples below, terminal, txt, db, SQLcommands  
 All from first days work  
 (got the task on Weds, today is thurs, only had 3 hours to work during class 10am to 1pm, though i worked throughout my lunch too so 4)  
-  
-  
+   
+   
 ## DASHBOARD APP  
-*click to enlarge images* 
-  
+*click to enlarge images*  
+yes this is supppper basic, but first day working with it, most of the learning today was just figuring out how to use streamlit and it's widgets  
+note files upload via discord but i literally cannot do it another way due to broken af os (ggwp microsoft)  
+    
 **Dashboard Home**    
-
-<img src="https://cdn.discordapp.com/attachments/981171204008345613/982656327010648094/dashboard_app_home.png" alt="dashboard home - 1" width="400"/>
-<img src="https://cdn.discordapp.com/attachments/981171204008345613/982656326775750686/dashboard_app_data1.png" alt="dashboard data - 1" width="400"/>
-
+<img src="https://cdn.discordapp.com/attachments/981171204008345613/982656327010648094/dashboard_app_home.png" alt="dashboard home - 1" width="500"/>
+<img src="https://cdn.discordapp.com/attachments/981171204008345613/982656327862087801/dashboard_app2_home.png" alt="dashboard home - 2" width="500"/>  
+   
+**Dashboard Insights**    
+<img src="https://cdn.discordapp.com/attachments/981171204008345613/982656327245496370/dashboard_app_insights.png" alt="dashboard insights - 1" width="500"/>  
+   
+**Dashboard Data**    
+<img src="https://cdn.discordapp.com/attachments/981171204008345613/982656326775750686/dashboard_app_data1.png" alt="dashboard data - 1" width="500"/>  
   
+   
 ### EXAMPLE 1 [TERMINAL]  
 - - + - -  
 **EXAMPLE OF TERMINAL PRINT OUT SO FAR**  
