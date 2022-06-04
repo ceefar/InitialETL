@@ -75,7 +75,7 @@ Total Items Purchased : 1
 Average Spend Per Item : $5.23
 Highest Value Item : ABCDEF at $5.23
 Unique Items (list with counts)
-- ABCDEF [x1]
+ABCDEF [x1]
 Unique Shopping Days : 1
 Shopping Days As % Of Available Days [38] : 2.6%
 Average Spend Per Unique Shopping Day [1] : $5.23
