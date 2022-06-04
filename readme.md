@@ -60,73 +60,29 @@ EXAMPLE 1 [TERMINAL]
 EXAMPLE OF TERMINAL PRINT OUT SO FAR  
 Local Data Successfully Moved To Staging Table  
 Some Items From Local Data Were Dummified Due To Incomplete Data  
-Lines -> [3, 6, 25, 27]
-DATE RANGE : ALL
-Unique Customers (by ID) Used In This Data Set
-996
-1054
-2194
-3451
-5632
-7365
-
-<p>
-CUSTOMER 996
-Total Spend : $5.23
-Total Items Purchased : 1
-Average Spend Per Item : $5.23
-Highest Value Item : ABCDEF at $5.23
-Unique Items (list with counts)
-ABCDEF [x1]
-Unique Shopping Days : 1
-Shopping Days As % Of Available Days [38] : 2.6%
-Average Spend Per Unique Shopping Day [1] : $5.23
-Date of First Purchase : 2020-12-05
-Date of Last Purchase : 2020-12-05
-Buying Window (days from first to last purchase) : 1
-Daily Average Spend During Buying Window [1 days] : $5.23
-Highest Spend On A Day : $5.23 on 2020-12-05
-Lowest Spend On A Day : $5.23 on 2020-12-05
-Spend Deviation (diff in high and low spend) : $0.00
-Spend Per Day
-$5.23 on 2020-12-05
-</p>
+Lines -> [3, 6, 25, 27]  
+DATE RANGE : ALL  
+Unique Customers (by ID) Used In This Data Set  
+996  
+1054  
+2194  
+3451  
+5632  
+7365  
 
 ---
-
-CUSTOMER 2194
-Total Spend : $50.00
-Total Items Purchased : 4
-Average Spend Per Item : $12.50
-Highest Value Item : 667XL at $12.50
-Unique Items (list with counts)
-667XL [x4]
-Unique Shopping Days : 4
-Shopping Days As % Of Available Days [38] : 10.5%
-Average Spend Per Unique Shopping Day [4] : $12.50
-Date of First Purchase : 2020-11-28
-Date of Last Purchase : 2020-12-04
-Buying Window (days from first to last purchase) : 7
-Daily Average Spend During Buying Window [7 days] : $7.14
-Highest Spend On A Day : $12.5 on 2020-11-28
-Lowest Spend On A Day : $12.5 on 2020-11-28
-Spend Deviation (diff in high and low spend) : $0.00
-Spend Per Day
-$12.5 on 2020-11-28
-$12.5 on 2020-12-01
-$12.5 on 2020-12-03
-$12.5 on 2020-12-04
-CUSTOMER 5632
-Total Spend : $62.26
-Total Items Purchased : 10
-Average Spend Per Item : $6.23
-Highest Value Item : 853HGZ at $7.75
-Unique Items (list with counts)
-113BCA [x4]
-853HGZ [x3]
-439FS [x3]
-Unique Shopping Days : 6
-Shopping Days As % Of Available Days [38] : 15.8%
+<p>
+CUSTOMER 5632  
+Total Spend : $62.26  
+Total Items Purchased : 10  
+Average Spend Per Item : $6.23  
+Highest Value Item : 853HGZ at $7.75  
+Unique Items (list with counts)  
+113BCA [x4]  
+853HGZ [x3]  
+439FS [x3]  
+Unique Shopping Days : 6  
+Shopping Days As % Of Available Days [38] : 15.8%  
 Average Spend Per Unique Shopping Day [6] : $10.38
 Date of First Purchase : 2020-12-01
 Date of Last Purchase : 2020-12-08
@@ -142,6 +98,7 @@ $13.78 on 2020-12-03
 $6.03 on 2020-12-04
 $19.01 on 2020-12-05
 $5.23 on 2020-12-08
+</p>
 CUSTOMER 7365
 Total Spend : $25.70
 Total Items Purchased : 13
