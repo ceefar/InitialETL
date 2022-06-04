@@ -50,10 +50,12 @@ considering a super simple ml algorithm for predicting revenues but might leave 
 ## NEW  
 **updates for saturday 4th June**  
 So some quite major updates already in just a few days, but firstly the technical issues  
-i've had a big time issue with windows 11, basically nothing inherent to the os worked (e.g. photos, snipping tool, entire office suite) and i had no startbar  
+i've had a big time issue with windows 11, basically nothing inherent to the os worked (e.g. photos, snipping tool, entire office suite) and i had no startbar   
+  
 there were workarounds (i.e. using run or navigating to exes in root folders for startbar workaround)  
 then decided friday would be a good day to fix things, got up early contacted microsoft support, and THEY BROKE MY LAPTOP WORSE XD  
 you honestly cannot make this stuff up, now no taskbar at all, and nothing at all microsoft related works (no settings, no recycle bin, not even files or folders)  
+  
 the only work around is to do **everything** through the run menu, very sadge, much annoy, but we move on.
 i've got them to give me the dl for windows 10, would have reverted already but yet to be given a time to showcase my first project  
 which i missed due to surgery and since i'm not confident in spinning the sql server back up i figured ill wait til that's done  
