@@ -67,11 +67,12 @@ was a real pain at the start but after a while got to grips with it and man am i
 pretty much a basic etl pipeline and basic dashboard app already in 3 days after the first etl tasksheet :D
 still an awful lot to do on it tho, but the data included is brought in from either csv files that are saved from the db data,
 or are directly accessed from the db itself, so real cool stuff there like inclusion of historical data to show the difference between  
-the avg spend kpi for the current set of data, and the previous time the etl pipeline was run, this shows as a difference indicator in the metric widget  
-which is also coloured (green for growth, red for loss), and also tables showing highlighted missing data fields, vs the ones that were cleaned and  
-ones that were improved (function for figuring out what data is missing based on what is available), which i think looks super cool too  
-you can see the screenshots of that below and like i said i'll update this readme hopefully sunday to show how the transformation data has evolved  
-ive also started doing some minor additions to the data set as working with more data really brings this whole thing to life, slowly but steadily mind you.  
+the avg spend kpi for the current set of data, and the previous time the etl pipeline was run, this shows as a difference indicator in
+the metric widget which is also coloured (green for growth, red for loss), and also tables showing highlighted missing data fields,  
+vs the ones that were cleaned and ones that were improved (function for figuring out what data is missing based on what is available),   
+which i think looks super cool too you can see the screenshots of that below and like i said i'll update this readme 
+hopefully sunday to show how the transformation data has evolved ive also started doing some minor additions to the data set  
+as working with more data really brings this whole thing to life, slowly but steadily mind you.  
   
 also to end, an unnecessarily long amount of time figuring out how to format in markdown, totally work it tho as not only does streamlit use markdown  
 (which is the python library im using for my current dashboard app) but in all seriousness I'm probably going to need to know how to do this  
