@@ -55,7 +55,7 @@ All from first days work
 (got the task on Weds, today is thurs, only had 3 hours to work during class 10am to 1pm, though i worked throughout my lunch too so 4)
 
 
-# --- EXAMPLE 1 [TERMINAL] ----
+EXAMPLE 1 [TERMINAL]
 
 EXAMPLE OF TERMINAL PRINT OUT SO FAR
 - - - -
@@ -259,7 +259,7 @@ COMPLETE
 - - - -
 
 
-# --- EXAMPLE 2 [TXT] ----
+EXAMPLE 2 [TXT]
 
 EXAMPLE OF CUSTOMER TXT FILE SO FAR 
 (as you can see there is much more data in terminal, but thats just because i'm still adding and creating that data)
@@ -285,8 +285,9 @@ Unique Items With Amount Purchased
 1x 385HTU
 1x 951LXU
 
+--
 
-# --- EXAMPLE 3 [DB] ----
+EXAMPLE 3 [DB]
 
 EXAMPLE OF INSIGHTS DB TABLE
 (same problem with txt files but even more so, just completed load to ensure worked, then working mostly in terminal for the day)
@@ -298,8 +299,9 @@ customer_id	total_items_purchased	total_spend	avg_spend	highest_indiv_item_spend
 3451	1	9.15	9.15	9.15	023HRT
 996	1	5.23	5.23	5.23	ABCDEF
 
+--
 
-# --- EXAMPLE 4 [SQL COMMANDS] ----
+EXAMPLE 4 [SQL COMMANDS] 
 
 feel this gives a good idea of my level of interest in data engineering and showcases my high level of commitment to my learning
 through the timestamps (note I recently had surgery hence why I was up so early (because I tend to go to sleep quite early, between 6 and 9pm))
