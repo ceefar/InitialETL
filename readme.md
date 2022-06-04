@@ -106,7 +106,7 @@ note files upload via discord but i literally cannot do it another way due to br
 <img src="https://cdn.discordapp.com/attachments/981171204008345613/982656326775750686/dashboard_app_data1.png" alt="dashboard data - 1" width="500"/>  
   
    
-### EXAMPLE 1 [TERMINAL]  
+### EXAMPLE 2 [TERMINAL]  
 - - + - -  
 **EXAMPLE OF TERMINAL PRINT OUT SO FAR**  
 *(below output has been trimmed to show only 2 users)*     
@@ -191,7 +191,7 @@ $7.02 on 2020-12-05
   
 - - - -
 
-### EXAMPLE 2 [TXT]  
+### EXAMPLE 3 [TXT FILES]  
 
 **EXAMPLE OF CUSTOMER TXT FILE SO FAR**  
 *(as you can see there is much more data in terminal, but thats just because i'm still adding and creating that data)*  
@@ -219,10 +219,10 @@ Unique Items With Amount Purchased
   
 - - - -
 
-### EXAMPLE 3 [DB]
+### EXAMPLE 4 [DB PEEK]
   
 **EXAMPLE OF INSIGHTS DB TABLE**  
-*(same problem with txt files but even more so, just completed load to ensure worked, then working mostly in terminal for the day)*   
+*(this has changed drastically already by Saturday 4th, below example (like the majority of the readme) is from Thursday 2nd)*   
   
 | customer_id | total_items_purchased | total_spend | avg_spend | highest_indiv_item_spend | highest_indiv_item_id |
 |-------------|-----------------------|-------------|-----------|--------------------------|-----------------------|
@@ -234,13 +234,13 @@ Unique Items With Amount Purchased
   
 - - - -
   
-### EXAMPLE 4 [SQL COMMANDS] 
+### EXAMPLE 5 [SQL COMMANDS] 
   
 feel this gives a good idea of my level of interest in data engineering and showcases my high level of commitment to my learning  
 through the timestamps (note I recently had surgery hence why I was up so early (because I tend to go to sleep quite early, between 6 and 9pm)  
   
 **History**
-Edit 19:02:56 SELECT purchase_date, SUM(purchase_amount) AS TotalCustomerSpend FROM CustomerSa  
+Edit **19:02:56** SELECT purchase_date, SUM(purchase_amount) AS TotalCustomerSpend FROM CustomerSa  
 Edit 17:56:46 UPDATE `CustomerSalesData` SET `customer_id` = '5632', `purchase_date` = '2020-1… (0.014 s)  
 Edit 17:28:06 SELECT purchase_date FROM CustomerSalesData WHERE customer_id = 7365 AND NOT pur…  
 Edit 17:27:48 SELECT purchase_date FROM CustomerSalesData WHERE customer_id = 7365 AND NOT pur…  
@@ -373,7 +373,7 @@ Edit 03:44:21 SELECT * FROM 'CustomerSalesData_Staging';
 Edit 03:43:56 SELECT * FROM 'CustomerSalesData_Staging';      
 Edit 03:43:52 SELECT *, FROM 'CustomerSalesData_Staging';    
 Edit 03:43:26 SELECT * FROM 'CustomerSalesData_Staging';    
-Edit 03:43:14 SELECT * FROM 'CustomerSalesData_Staging' ;  
+Edit **03:43:14** SELECT * FROM 'CustomerSalesData_Staging' ;  
 Edit 16:16:28 CREATE TABLE CustomerSpendingInsights ( customer_id INT NOT NULL,  total_items_p…  
 Edit 16:16:23 DROP TABLE CustomerSpendingInsights;  
 Edit 15:18:13 CREATE TABLE CustomerSpendingInsights ( customer_id INT NOT NULL,  total_items_p…
@@ -397,19 +397,19 @@ Edit 09:56:27 CREATE TABLE CustomerSalesData ( customer_id INT, purchase_date DA
   
      
 ## PERSONAL
-I am very very proud of what I have done so far, did make sure to point the class in the right direction during the task too as
-everyone (except sean?) seemed to want to do this completely in python, not using sql queries
-gave gentle nudges to the class in chat by highlighting the COUNT, AVG, AND SUM sql functions with some pseudocode on how to use them
-despite what others thing I pretty much started at the same level as others (1 year of uni 8 years ago didnt do much to help me)
-i just put an extreme amount of work into this, i geneuinely love programming, and *actually* enjoy working with data (or i wouldnt do so much)  
+I am very very proud of what I have done so far, did make sure to point the class in the right direction during the task too as  
+everyone (except sean?) seemed to want to do this completely in python, not using sql queries  
+gave gentle nudges to the class in chat by highlighting the COUNT, AVG, AND SUM sql functions with some pseudocode on how to use them  
+despite what others thing I pretty much started at the same level as others (1 year of uni 8 years ago didnt do much to help me)  
+i just put an extreme amount of work into this, i geneuinely love programming, and *actually* enjoy working with data (or i wouldnt do so much)   
 where others only completed 4 of the 5 modules on the udacity course, i had already completed the 5th module 3 times before the appitude test,  
 seemed obvious to me to learn it since we were planning to do this for work, imo if you do the bare minimum you shouldnt expect much else
-
-i appreciate others like to lead balanced lifestyles, relax, and have downtime where they don't think about this stuff, totally get that  
-but i find this stuff relaxing, and interesting, for me it's like playing with lego, creating things, it's fun, not work
-i'm sure it gets to a point where you're 10 years in, know a bucket load and you'd dont feel the same way...  
-but i'm not there yet however, i really really want to be, and ideally in half the time that others get there,  
-i want to climb the ladders, i want to be expereinced, i feel like i have a lot of catching up to do and i'm doing it  
   
-Despite what others think **this** why i make rapid progress, not because I have a leg up on everyone else
+i appreciate others like to lead balanced lifestyles, relax, and have downtime where they don't think about this stuff, totally get that  
+but i find this stuff relaxing, and interesting, for me it's like playing with lego, creating things, it's fun, not work  
+i'm sure it gets to a point where you're 10 years in, know a bucket load and you'd dont feel the same way...   
+but i'm not there yet however, i really really want to be, and ideally in half the time that others get there,   
+i want to climb the ladders, i want to be expereinced, i feel like i have a lot of catching up to do and i'm doing it   
+   
+Despite what others think **this** why i make rapid progress, not because I have a leg up on everyone else  
 
