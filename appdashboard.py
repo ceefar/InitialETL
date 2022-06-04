@@ -24,7 +24,7 @@ with top_bar:
     #---- as horizontal menu ----
     selected =  option_menu(
         menu_title=None, # required, can be text or None
-        options=["Home", "Insights", "Charts", "Historical"], # required
+        options=["Home", "Insights", "Data", "Historical"], # required
         icons=["house-door", "magic", "graph-up-arrow", "watch"], # optional
         menu_icon="ui-checks", # optional
         default_index=0, # optional
@@ -40,50 +40,80 @@ with top_bar:
 
 with pages:
     if selected == "Home":
+        # the page container (home)
         with home:
-            st.write("##")
+            # seperate containers for grouped sections/elements for clarity
+            # kpi container
+            with st.container():
+                st.write("##")
 
-            st.title(f"Sales KPI Dashboard")
-            st.write("##")
+                st.title(f"Sales KPI Dashboard")
+                st.write("##")
 
-            # ---- for st.metric header widget ----
-            col1, col2, col3 = st.columns(3)
+                # ---- for st.metric header widget ----
+                col1, col2, col3 = st.columns(3)
 
-            # grab current & historical avg spend per customer from db
-            avg_spend = etl.grab_all_cust_avg_spend_proper()
-            hist_avg_spend = etl.grab_all_cust_avg_spend_historical()
-            # calculate the difference for the delta
-            avg_spend_delta = avg_spend - hist_avg_spend
-            avg_spend_delta = f"{avg_spend_delta:.2f}"
-            avg_spend_delta = float(avg_spend_delta)
+                # grab current & historical avg spend per customer from db
+                avg_spend = etl.grab_all_cust_avg_spend_proper()
+                hist_avg_spend = etl.grab_all_cust_avg_spend_historical()
+                # calculate the difference for the delta
+                avg_spend_delta = avg_spend - hist_avg_spend
+                avg_spend_delta = f"{avg_spend_delta:.2f}"
+                avg_spend_delta = float(avg_spend_delta)
 
-            # grab avg shop days per customer
-            avg_shop_days = etl.grab_all_cust_avg_shop_days()
+                # grab avg shop days per customer
+                avg_shop_days = etl.grab_all_cust_avg_shop_days()
+                
+                # so should have a previous day table in db thats exactly the same but is basically cycling holding 2 things so can compare for delta
+                # for now just do this for the new table 
+                col1.metric(label="Avg Spend", value=f"${avg_spend:.2f}", delta=avg_spend_delta, delta_color="normal")
+                col2.metric(label="Valued Customers", value=3, delta=0, delta_color="off")
+                col3.metric(label="Avg Shop Days", value=f"{avg_shop_days:.1f}", delta=-1, delta_color="normal")
+
+                with st.expander("See previous kpi data"): 
+                    #st.write("See historical tab for more info")
+                    # ---- for st.metric header widget ----
+                    col1, col2, col3 = st.columns(3)
+                    # grab historical avg spend per customer from db
+                    hist_avg_spend = etl.grab_all_cust_avg_spend_historical()
+                    # grab avg shop days per customer
+                    avg_shop_days = etl.grab_all_cust_avg_shop_days()
+                    # so should have a previous day table in db thats exactly the same but is basically cycling holding 2 things so can compare for delta
+                    # for now just do this for the new table 
+                    col1.metric(label="Avg Spend", value=f"${hist_avg_spend:.2f}", delta=None, delta_color="normal")
+                    col2.metric(label="Valued Customers", value=3, delta=0, delta_color="off")
+                    col3.metric(label="Avg Shop Days", value=f"{avg_shop_days:.1f}", delta=-1, delta_color="normal")
+
+                st.write("##")
+
+                # END KPI METRIC CONTAINER
+
+            with st.container():
+                # items sold by price chart container
+                st.write("---")
+                st.write("##")
+                st.subheader("Items Sold By Price")
+                dashboard_data = pd.read_csv("CustomerSalesData.csv")
+                dash_chart = pd.DataFrame(dashboard_data["purchase_amount"].value_counts()).head(31)
+                st.bar_chart(dash_chart)
             
-    	    # so should have a previous day table in db thats exactly the same but is basically cycling holding 2 things so can compare for delta
-            # for now just do this for the new table 
-            col1.metric(label="Avg Spend", value=f"${avg_spend:.2f}", delta=avg_spend_delta, delta_color="normal")
-            col2.metric(label="Valued Customers", value=3, delta=0, delta_color="off")
-            col3.metric(label="Avg Shop Days", value=f"{avg_shop_days:.1f}", delta=-1, delta_color="normal")
+                # END CHART CONTAINER
 
-            st.write("---")
-            st.write("##")
-            st.write(""" #### Amount Of Items Sold By Price """)
-            dashboard_data = pd.read_csv("CustomerSalesData.csv")
-            dash_chart = pd.DataFrame(dashboard_data["purchase_amount"].value_counts()).head(31)
-            st.bar_chart(dash_chart)
 
-            st.write("---")
-            st.write("##")
-            nav_location = f'<p style="font-size: 12px;">{selected}</p>'
-            st.markdown(nav_location, unsafe_allow_html=True)
+
+            with st.container():
+                # bottom nav info ended container
+                st.write("---")
+                st.write("##")
+                nav_location = f'<p style="font-size: 12px;">{selected}</p>'
+                st.markdown(nav_location, unsafe_allow_html=True)
 
     # insights page
     if selected == "Insights":
         insgt.main()
 
     # charts page
-    if selected == "Charts":
+    if selected == "Data":
         chrts.main()
 
     # historical page

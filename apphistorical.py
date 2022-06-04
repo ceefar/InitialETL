@@ -19,7 +19,7 @@ def main():
     # grab historical avg spend per customer from db
     hist_avg_spend = etl.grab_all_cust_avg_spend_historical()
 
-    # grab avg shop days per customer
+    # grab avg shop days by customer
     avg_shop_days = etl.grab_all_cust_avg_shop_days()
     
     # so should have a previous day table in db thats exactly the same but is basically cycling holding 2 things so can compare for delta
@@ -28,4 +28,5 @@ def main():
     col2.metric(label="Valued Customers", value=3, delta=0, delta_color="off")
     col3.metric(label="Avg Shop Days", value=f"{avg_shop_days:.1f}", delta=-1, delta_color="normal")
     
+ 
 

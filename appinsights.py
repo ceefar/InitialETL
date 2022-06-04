@@ -15,6 +15,7 @@ def main():
     st.write("---")
     st.write("##")
 
+    st.write(""" #### Total Spend (by customer) """)
     insgt_chart = pd.DataFrame(insights_data["total_spend"]).head()
     st.bar_chart(insgt_chart)
     
