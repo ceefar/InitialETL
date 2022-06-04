@@ -13,6 +13,7 @@ I've also altered some dates so calculating things like averages made a lot more
 ## NOTE  
 if you are going to pull this or just dl the files/whatever, the config.toml file   
 must be in its own folder titles .streamlit if you want styling, should work without it tho but i have not tested at all  
+everything else is fine in root folder  
   
   
 ## EXTRACT
