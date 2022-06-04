@@ -76,6 +76,7 @@ ive also started doing some minor additions to the data set as working with more
 also to end, an unnecessarily long amount of time figuring out how to format in markdown, totally work it tho as not only does streamlit use markdown  
 (which is the python library im using for my current dashboard app) but in all seriousness I'm probably going to need to know how to do this  
 eventually so mights as well get it out of the way now lol  
+  
 actually also have had some issues with pushing to github, but i'll figure that one out eventually, might just be the os issues idk  
   
    
