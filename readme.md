@@ -46,7 +46,8 @@ am very very proud of what I have done so far, did make sure to point the class 
 everyone (except sean?) seemed to want to do this completely in python, not using sql queries
 gave gentle nudges to the class in chat by highlighting the COUNT, AVG, AND SUM sql functions with some pseudocode on how to use them
 despite what others thing I pretty much started at the same level as others (1 year of uni 8 years ago didnt do much to help me)
-i just put an extreme amount of work into this and i love doing it, hence why i make rapid progress while others do not.
+i just put an extreme amount of work into this and i love doing it  
+Despite what others think **this** why i make rapid progress, not because I have a leg up on everyone else
 
 ## DASHBOARD APP
 ![alt text](https://cdn.discordapp.com/attachments/981171204008345613/982656326775750686/dashboard_app_data1.png)  
