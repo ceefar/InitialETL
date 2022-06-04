@@ -33,7 +33,7 @@ would like to start work on a super simple dashboard app with this data by the e
 would also like to expand and improve the db generally
 considering a super simple ml algorithm for predicting revenues but might leave this for now
 
-###DB TABLES
+### DB TABLES
 CustomerSalesData_Staging
 CustomerSalesData
 CustomerSpendingInsights
