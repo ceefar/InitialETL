@@ -10,35 +10,35 @@ Note i have removed some extra fields from the sample data set to test my code f
 I've also altered some dates so calculating things like averages made a lot more sense   
   
   
-### EXTRACT
+## EXTRACT
 Extracts data and dummifies any missing entries, then fills in any missing entries it can if valid
 - e.g. if have a product_id but no product_amount for a user ive created a new ProductPricing db table that
 - it checks again and then fills in the price data, this means that before where user 1054 would have been 
 - completely ommited from the insights dataset, but now their data is entirely included
   
   
-### TRANSFORM
+## TRANSFORM
 lots of value based insights from the given dataset, mostly (since im just adding lots still)
 is outputted to the terminal, with some data saved to individual txt files for each user
 these txt files will have different file names depending on if data is parsed from the entire datasets timeline
 or from a specific date range. Some data is included in a new CustomerSpendingInsights table, which i will expand on shortly
   
   
-### LOAD
+## LOAD
 initially data is sent to CustomerSalesData_Staging table, and cleaned here before being set to the the final CustomerSalesData table
 obviously wasnt entirely necessary but seemed like was the expected thing to do, 
 and i guess if there were multiple data sources this would be a necessity
 after data is loaded from the staging table to the final table the staging table is wiped
   
   
-### PLANS
+## PLANS
 many plans for expanding the insights in product specific insights, obviously moving my terminal data to txt files and relevant db tables
 would like to start work on a super simple dashboard app with this data by the end of the bank holiday weekend using streamlit
 would also like to expand and improve the db generally
 considering a super simple ml algorithm for predicting revenues but might leave this for now
   
   
-### DB TABLES
+## DB TABLES
 - CustomerSalesData_Staging
 - CustomerSalesData
 - CustomerSpendingInsights
@@ -47,7 +47,7 @@ considering a super simple ml algorithm for predicting revenues but might leave 
 - [NEW] CustomerInsightsHistorical (for dashboard app)
   
    
-### PERSONAL
+## PERSONAL
 I am very very proud of what I have done so far, did make sure to point the class in the right direction during the task too as
 everyone (except sean?) seemed to want to do this completely in python, not using sql queries
 gave gentle nudges to the class in chat by highlighting the COUNT, AVG, AND SUM sql functions with some pseudocode on how to use them
@@ -57,13 +57,13 @@ i just put an extreme amount of work into this and i love doing it
 Despite what others think **this** why i make rapid progress, not because I have a leg up on everyone else
   
   
-### EXAMPLES  
+## EXAMPLES  
 See 5 examples below, terminal, txt, db, SQLcommands  
 All from first days work  
 (got the task on Weds, today is thurs, only had 3 hours to work during class 10am to 1pm, though i worked throughout my lunch too so 4)  
   
   
-### DASHBOARD APP
+## DASHBOARD APP
 ![alt text](https://cdn.discordapp.com/attachments/981171204008345613/982656326775750686/dashboard_app_data1.png)  
   
   
