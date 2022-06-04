@@ -45,24 +45,37 @@ considering a super simple ml algorithm for predicting revenues but might leave 
 - ProductPricing
 - **[NEW]** CustomerInsights
 - **[NEW]** CustomerInsightsHistorical (for dashboard app)
+   
+  
+## NEW  
+**updates for saturday 4th June**  
+So some quite major updates already in just a few days, but firstly the technical issues  
+i've had a big time issue with windows 11, basically nothing inherent to the os worked (e.g. photos, snipping tool, entire office suite) and i had no startbar  
+there were workarounds (i.e. using run or navigating to exes in root folders for startbar workaround)  
+then decided friday would be a good day to fix things, got up early contacted microsoft support, and THEY BROKE MY LAPTOP WORSE XD  
+you honestly cannot make this stuff up, now no taskbar at all, and nothing at all microsoft related works (no settings, no recycle bin, not even files or folders)  
+the only work around is to do **everything** through the run menu, very sadge, much annoy, but we move on.
+i've got them to give me the dl for windows 10, would have reverted already but yet to be given a time to showcase my first project  
+which i missed due to surgery and since i'm not confident in spinning the sql server back up i figured ill wait til that's done  
+  
+ok so with that out of the way, a large refactor and formatting to the original app on friday after raging with microsoft for 2 hours and starting  
+file backups (windows 10 install will require wiping my entire system fml), but refactor was very much worth it, then expanded the extract data drastically  
+though i've not included the specifics of the update here, thinking i'll possibly do that on sunday with a new readme.md  
+  
+today tho has been my favourite day, spent entirely working with streamlit and trying to get a super basic dashboard app up and running,  
+was a real pain at the start but after a while got to grips with it and man am i proud of it so far,  
+pretty much a basic etl pipeline and basic dashboard app already in 3 days after the first etl tasksheet :D
+still an awful lot to do on it tho, but the data included is brought in from either csv files that are saved from the db data,
+or are directly accessed from the db itself, so real cool stuff there like inclusion of historical data to show the difference between  
+the avg spend kpi for the current set of data, and the previous time the etl pipeline was run, this shows as a difference indicator in the metric widget  
+which is also coloured (green for growth, red for loss), and also tables showing highlighted missing data fields, vs the ones that were cleaned and  
+ones that were improved (function for figuring out what data is missing based on what is available), which i think looks super cool too  
+you can see the screenshots of that below and like i said i'll update this readme hopefully sunday to show how the transformation data has evolved  
+ive also started doing some minor additions to the data set as working with more data really brings this whole thing to life, slowly but steadily mind you.  
   
    
-## PERSONAL
-I am very very proud of what I have done so far, did make sure to point the class in the right direction during the task too as
-everyone (except sean?) seemed to want to do this completely in python, not using sql queries
-gave gentle nudges to the class in chat by highlighting the COUNT, AVG, AND SUM sql functions with some pseudocode on how to use them
-despite what others thing I pretty much started at the same level as others (1 year of uni 8 years ago didnt do much to help me)
-i just put an extreme amount of work into this, i geneuinely love programming, and *actually* enjoy working with data (or i wouldnt do so much)  
-where others only completed 4 of the 5 modules on the udacity course, i had already completed the 5th module 3 times before the appitude test,  
-seemed obvious to me to learn it since we were planning to do this for work, imo if you do the bare minimum you shouldnt expect much else
-
-i appreciate others like to lead balanced lifestyles, relax, and have downtime where they don't think about this stuff, totally get that  
-but i find this stuff relaxing, and interesting, for me it's like playing with lego, creating things, it's fun, not work
-i'm sure it gets to a point where you're 10 years in, know a bucket load and you'd dont feel the same way...  
-but i'm not there yet however, i really really want to be, and ideally in half the time that others get there,  
-i want to climb the ladders, i want to be expereinced, i feel like i have a lot of catching up to do and i'm doing it  
-  
-Despite what others think **this** why i make rapid progress, not because I have a leg up on everyone else
+## PERSONAL 
+old personal notes on the project and my progress overall have been moved to the end of the document
   
   
 ## EXAMPLES  
@@ -72,7 +85,7 @@ All from first days work
   
   
 ## DASHBOARD APP
-![alt text](https://cdn.discordapp.com/attachments/981171204008345613/982656326775750686/dashboard_app_data1.png)  
+![data_page](https://cdn.discordapp.com/attachments/981171204008345613/982656326775750686/dashboard_app_data1.png)  
   
   
 ### EXAMPLE 1 [TERMINAL]  
@@ -362,3 +375,23 @@ Edit 10:12:07 CREATE TABLE CustomerSalesData_Staging ( customer_id INT, purchase
 Edit 10:11:59 CREATE TABLE CustomerSalesData.Stage ( customer_id INT, purchase_date DATE, purc…  
 Edit 09:56:37 CREATE TABLE CustomerSalesData ( customer_id INT, purchase_date DATE, purchase_a…  
 Edit 09:56:27 CREATE TABLE CustomerSalesData ( customer_id INT, purchase_date DATE, purchase_a…  
+  
+  
+     
+## PERSONAL
+I am very very proud of what I have done so far, did make sure to point the class in the right direction during the task too as
+everyone (except sean?) seemed to want to do this completely in python, not using sql queries
+gave gentle nudges to the class in chat by highlighting the COUNT, AVG, AND SUM sql functions with some pseudocode on how to use them
+despite what others thing I pretty much started at the same level as others (1 year of uni 8 years ago didnt do much to help me)
+i just put an extreme amount of work into this, i geneuinely love programming, and *actually* enjoy working with data (or i wouldnt do so much)  
+where others only completed 4 of the 5 modules on the udacity course, i had already completed the 5th module 3 times before the appitude test,  
+seemed obvious to me to learn it since we were planning to do this for work, imo if you do the bare minimum you shouldnt expect much else
+
+i appreciate others like to lead balanced lifestyles, relax, and have downtime where they don't think about this stuff, totally get that  
+but i find this stuff relaxing, and interesting, for me it's like playing with lego, creating things, it's fun, not work
+i'm sure it gets to a point where you're 10 years in, know a bucket load and you'd dont feel the same way...  
+but i'm not there yet however, i really really want to be, and ideally in half the time that others get there,  
+i want to climb the ladders, i want to be expereinced, i feel like i have a lot of catching up to do and i'm doing it  
+  
+Despite what others think **this** why i make rapid progress, not because I have a leg up on everyone else
+
