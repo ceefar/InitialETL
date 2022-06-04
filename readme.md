@@ -86,6 +86,7 @@ All from first days work
   
 ## DASHBOARD APP
 ![data_page](https://cdn.discordapp.com/attachments/981171204008345613/982656326775750686/dashboard_app_data1.png)  
+<img src="https://cdn.discordapp.com/attachments/981171204008345613/982656327010648094/dashboard_app_home.png" alt="dashboard home - 1" width="200"/>
   
   
 ### EXAMPLE 1 [TERMINAL]  
