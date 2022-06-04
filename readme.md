@@ -60,21 +60,21 @@ EXAMPLE 1 [TERMINAL]
 EXAMPLE OF TERMINAL PRINT OUT SO FAR
 --
 Local Data Successfully Moved To Staging Table
--
+.
 Some Items From Local Data Were Dummified Due To Incomplete Data
 Lines -> [3, 6, 25, 27]
--
+.
 DATE RANGE : ALL
--
+.
 Unique Customers (by ID) Used In This Data Set
--
+.
 996
 1054
 2194
 3451
 5632
 7365
--
+.
 CUSTOMER 996
 Total Spend : $5.23
 Total Items Purchased : 1
