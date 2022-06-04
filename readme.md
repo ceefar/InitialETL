@@ -57,9 +57,9 @@ All from first days work
 
 EXAMPLE 1 [TERMINAL]
 
-EXAMPLE OF TERMINAL PRINT OUT SO FAR
-Local Data Successfully Moved To Staging Table
-Some Items From Local Data Were Dummified Due To Incomplete Data
+EXAMPLE OF TERMINAL PRINT OUT SO FAR  
+Local Data Successfully Moved To Staging Table  
+Some Items From Local Data Were Dummified Due To Incomplete Data  
 Lines -> [3, 6, 25, 27]
 DATE RANGE : ALL
 Unique Customers (by ID) Used In This Data Set
