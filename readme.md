@@ -82,57 +82,57 @@ Unique Items (list with counts)
 439FS [x3]  
 Unique Shopping Days : 6  
 Shopping Days As % Of Available Days [38] : 15.8%  
-Average Spend Per Unique Shopping Day [6] : $10.38
-Date of First Purchase : 2020-12-01
-Date of Last Purchase : 2020-12-08
-Buying Window (days from first to last purchase) : 8
-Daily Average Spend During Buying Window [8 days] : $7.78
-Highest Spend On A Day : $19.01 on 2020-12-05
-Lowest Spend On A Day : $5.23 on 2020-12-01
-Spend Deviation (diff in high and low spend) : $13.78
-Spend Per Day
-$5.23 on 2020-12-01
-$12.98 on 2020-12-02
-$13.78 on 2020-12-03
-$6.03 on 2020-12-04
-$19.01 on 2020-12-05
-$5.23 on 2020-12-08
+Average Spend Per Unique Shopping Day [6] : $10.38  
+Date of First Purchase : 2020-12-01  
+Date of Last Purchase : 2020-12-08  
+Buying Window (days from first to last purchase) : 8  
+Daily Average Spend During Buying Window [8 days] : $7.78  
+Highest Spend On A Day : $19.01 on 2020-12-05  
+Lowest Spend On A Day : $5.23 on 2020-12-01  
+Spend Deviation (diff in high and low spend) : $13.78  
+Spend Per Day  
+$5.23 on 2020-12-01  
+$12.98 on 2020-12-02  
+$13.78 on 2020-12-03  
+$6.03 on 2020-12-04  
+$19.01 on 2020-12-05  
+$5.23 on 2020-12-08  
 .
-CUSTOMER 7365
-Total Spend : $25.70
-Total Items Purchased : 13
-Average Spend Per Item : $1.98
-Highest Value Item : 915PD at $3.25
-Unique Items (list with counts)
-893GDE [x2]
-384JHG [x2]
-548FH [x1]
-068HQJ [x1]
-475KDU [x1]
-023HRT [x1]
-501KH [x1]
-915PD [x1]
-626OH [x1]
-385HTU [x1]
-951LXU [x1]
-Unique Shopping Days : 6
-Shopping Days As % Of Available Days [38] : 15.8%
-Average Spend Per Unique Shopping Day [6] : $4.28
-Date of First Purchase : 2020-12-01
-Date of Last Purchase : 2020-12-05
-Buying Window (days from first to last purchase) : 5
-Daily Average Spend During Buying Window [5 days] : $5.14
-Highest Spend On A Day : $7.02 on 2020-12-05
-Lowest Spend On A Day : $1.96 on 2000-01-01
-Spend Deviation (diff in high and low spend) : $5.06
-Spend Per Day
-$1.96 on 2000-01-01
-$2.75 on 2020-12-01
-$4.89 on 2020-12-02
-$4.82 on 2020-12-03
-$6.22 on 2020-12-04
-$7.02 on 2020-12-05
-COMPLETE
+CUSTOMER 7365  
+Total Spend : $25.70  
+Total Items Purchased : 13  
+Average Spend Per Item : $1.98  
+Highest Value Item : 915PD at $3.25  
+Unique Items (list with counts)  
+893GDE [x2]  
+384JHG [x2]  
+548FH [x1]  
+068HQJ [x1]  
+475KDU [x1]  
+023HRT [x1]  
+501KH [x1]  
+915PD [x1]  
+626OH [x1]  
+385HTU [x1]  
+951LXU [x1]  
+Unique Shopping Days : 6  
+Shopping Days As % Of Available Days [38] : 15.8%  
+Average Spend Per Unique Shopping Day [6] : $4.28  
+Date of First Purchase : 2020-12-01  
+Date of Last Purchase : 2020-12-05  
+Buying Window (days from first to last purchase) : 5  
+Daily Average Spend During Buying Window [5 days] : $5.14  
+Highest Spend On A Day : $7.02 on 2020-12-05  
+Lowest Spend On A Day : $1.96 on 2000-01-01  
+Spend Deviation (diff in high and low spend) : $5.06  
+Spend Per Day  
+$1.96 on 2000-01-01  
+$2.75 on 2020-12-01  
+$4.89 on 2020-12-02  
+$4.82 on 2020-12-03  
+$6.22 on 2020-12-04  
+$7.02 on 2020-12-05  
+COMPLETE  
 
 - - - -
 
