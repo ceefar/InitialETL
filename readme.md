@@ -73,6 +73,10 @@ ones that were improved (function for figuring out what data is missing based on
 you can see the screenshots of that below and like i said i'll update this readme hopefully sunday to show how the transformation data has evolved  
 ive also started doing some minor additions to the data set as working with more data really brings this whole thing to life, slowly but steadily mind you.  
   
+also to end, an unnecessarily long amount of time figuring out how to format in markdown, totally work it tho as not only does streamlit use markdown  
+(which is the python library im using for my current dashboard app) but in all seriousness I'm probably going to need to know how to do this  
+eventually so mights as well get it out of the way now lol  
+  
    
 ## PERSONAL 
 old personal notes on the project and my progress overall have been moved to the end of the document
@@ -84,10 +88,14 @@ All from first days work
 (got the task on Weds, today is thurs, only had 3 hours to work during class 10am to 1pm, though i worked throughout my lunch too so 4)  
   
   
-## DASHBOARD APP
-![data_page](https://cdn.discordapp.com/attachments/981171204008345613/982656326775750686/dashboard_app_data1.png)  
-<img src="https://cdn.discordapp.com/attachments/981171204008345613/982656327010648094/dashboard_app_home.png" alt="dashboard home - 1" width="200"/>
+## DASHBOARD APP  
+*click to enlarge images* 
   
+**Dashboard Home**    
+
+<img src="https://cdn.discordapp.com/attachments/981171204008345613/982656327010648094/dashboard_app_home.png" alt="dashboard home - 1" width="400"/>
+<img src="https://cdn.discordapp.com/attachments/981171204008345613/982656326775750686/dashboard_app_data1.png" alt="dashboard data - 1" width="400"/>
+
   
 ### EXAMPLE 1 [TERMINAL]  
 - - + - -  
