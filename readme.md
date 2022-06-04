@@ -70,6 +70,8 @@ All from first days work
 ### EXAMPLE 1 [TERMINAL]  
 - - + - -  
 EXAMPLE OF TERMINAL PRINT OUT SO FAR  
+**(below output has been trimmed to show only 2 users)**     
+  
 Local Data Successfully Moved To Staging Table  
 Some Items From Local Data Were Dummified Due To Incomplete Data  
 Lines -> [3, 6, 25, 27]  
