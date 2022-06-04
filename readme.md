@@ -153,46 +153,46 @@ COMPLETE
 ### EXAMPLE 2 [TXT]  
 
 EXAMPLE OF CUSTOMER TXT FILE SO FAR 
-(as you can see there is much more data in terminal, but thats just because i'm still adding and creating that data)
-
-cust7365_allData.txt
-
-Data From All Available Dates Included
-CUSTOMER 7365
-Total Spend : $25.70
-Total Items Purchased : 13
-Average Spend : $1.98
-Highest Value Item : 915PD at $3.25
-Unique Items With Amount Purchased
-2x 893GDE
-2x 384JHG
-1x 548FH
-1x 068HQJ
-1x 475KDU
-1x 023HRT
-1x 501KH
-1x 915PD
-1x 626OH
-1x 385HTU
-1x 951LXU
-
+(as you can see there is much more data in terminal, but thats just because i'm still adding and creating that data)  
+  
+cust7365_allData.txt  
+  
+Data From All Available Dates Included  
+CUSTOMER 7365  
+Total Spend : $25.70  
+Total Items Purchased : 13  
+Average Spend : $1.98  
+Highest Value Item : 915PD at $3.25  
+Unique Items With Amount Purchased  
+2x 893GDE  
+2x 384JHG  
+1x 548FH  
+1x 068HQJ  
+1x 475KDU  
+1x 023HRT  
+1x 501KH  
+1x 915PD  
+1x 626OH  
+1x 385HTU  
+1x 951LXU  
+  
 - - - -
 
-EXAMPLE 3 [DB]
-
-EXAMPLE OF INSIGHTS DB TABLE
-(same problem with txt files but even more so, just completed load to ensure worked, then working mostly in terminal for the day)
-
-customer_id	total_items_purchased	total_spend	avg_spend	highest_indiv_item_spend	highest_indiv_item_id
-5632	10	62.26	6.23	7.75	853HGZ
-2194	4	50.00	12.50	12.50	667XL
-7365	12	25.40	2.12	3.25	915PD
-3451	1	9.15	9.15	9.15	023HRT
-996	1	5.23	5.23	5.23	ABCDEF
-
+### EXAMPLE 3 [DB]
+  
+EXAMPLE OF INSIGHTS DB TABLE  
+(same problem with txt files but even more so, just completed load to ensure worked, then working mostly in terminal for the day)  
+  
+customer_id	total_items_purchased	total_spend	avg_spend	highest_indiv_item_spend	highest_indiv_item_id  
+5632	10	62.26	6.23	7.75	853HGZ  
+2194	4	50.00	12.50	12.50	667XL  
+7365	12	25.40	2.12	3.25	915PD  
+3451	1	9.15	9.15	9.15	023HRT  
+996	1	5.23	5.23	5.23	ABCDEF  
+  
 - - - -
-
-EXAMPLE 4 [SQL COMMANDS] 
+  
+### EXAMPLE 4 [SQL COMMANDS] 
 
 feel this gives a good idea of my level of interest in data engineering and showcases my high level of commitment to my learning
 through the timestamps (note I recently had surgery hence why I was up so early (because I tend to go to sleep quite early, between 6 and 9pm))
