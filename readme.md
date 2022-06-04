@@ -69,7 +69,7 @@ Unique Customers (by ID) Used In This Data Set
 3451  
 5632  
 7365  
-- - + - -  
+- - - -  
 CUSTOMER 5632  
 Total Spend : $62.26  
 Total Items Purchased : 10  
