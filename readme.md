@@ -398,21 +398,3 @@ Edit 09:56:37 CREATE TABLE CustomerSalesData ( customer_id INT, purchase_date DA
 Edit 09:56:27 CREATE TABLE CustomerSalesData ( customer_id INT, purchase_date DATE, purchase_a…  
   
   
-     
-## PERSONAL
-I am very very proud of what I have done so far, did make sure to point the class in the right direction during the task too as  
-everyone (except sean?) seemed to want to do this completely in python, not using sql queries  
-gave gentle nudges to the class in chat by highlighting the COUNT, AVG, AND SUM sql functions with some pseudocode on how to use them  
-despite what others thing I pretty much started at the same level as others (1 year of uni 8 years ago didnt do much to help me)  
-i just put an extreme amount of work into this, i geneuinely love programming, and *actually* enjoy working with data (or i wouldnt do so much)   
-where others only completed 4 of the 5 modules on the udacity course, i had already completed the 5th module 3 times before the appitude test,  
-seemed obvious to me to learn it since we were planning to do this for work, imo if you do the bare minimum you shouldnt expect much else
-  
-i appreciate others like to lead balanced lifestyles, relax, and have downtime where they don't think about this stuff, totally get that  
-but i find this stuff relaxing, and interesting, for me it's like playing with lego, creating things, it's fun, not work  
-i'm sure it gets to a point where you're 10 years in, know a bucket load and you'd dont feel the same way...   
-but i'm not there yet however, i really really want to be, and ideally in half the time that others get there,   
-i want to climb the ladders, i want to be expereinced, i feel like i have a lot of catching up to do and i'm doing it   
-   
-Despite what others think **this** why i make rapid progress, not because I have a leg up on everyone else  
-
